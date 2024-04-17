@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" src="js/controller.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Quote Generator// Search over 1,000,000 quotes</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="quote">
+        <nav class="quote__nav">
+          <div class="quote__logo">
+            <img src="assets/logo-final.jpg" alt="" />
+          </div>
+          <div class="quote__side">
+            <button class="quote__btn">Generate Quote</button>
+            <div class="save__quote">
+              <ion-icon class="save__icon" name="bookmark-outline"></ion-icon>
+
+              <div class="saved__quote">
+                <div class="saved__quote--item">
+                  <a href="#" class="quote__item--saved">
+                    <h1 class="quote__item--title">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                    </h1>
+                    <span class="quote__saved--author"> Lorem ipsum. </span>
+                  </a>
+                  <a href="#" class="quote__item--saved">
+                    <h1 class="quote__item--title">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                    </h1>
+                    <span class="quote__saved--author"> Lorem ipsum. </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <main class="quote__main">
+          <div class="quote__display">
+            <div class="quote__content">
+              <!-- <a href="#" class="quote__item">
+                <h1 class="quote__display--title">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit...
+                </h1>
+                <span class="quote__item--author"> Lorem ipsum. </span>
+              </a> -->
+            </div>
+            <div class="pagination">
+              <div class="pagination__btn pagination__left">
+                <ion-icon class="pagination__icon" name="arrow-back"></ion-icon>
+                <span>1</span>
+              </div>
+              <div class="pagination__btn pagination__right">
+                <span>3</span>
+                <ion-icon
+                  class="pagination__icon"
+                  name="arrow-forward"
+                ></ion-icon>
+              </div>
+            </div>
+          </div>
+          <div class="quote__results">
+            <div class="quote__card">
+               <!-- <div class="spinner">
+                <svg>
+                  <use href="css/icons.svg#icon-loader"></use>
+                </svg>
+              </div>
+             
+              <div class="error__message">
+                -No quote found ‼️‼️, Please click "Generate Quote" to load new
+                quotes:)
+              </div>
+              -->
+
+              <div class="quote__data">
+                <div class="quote__message">
+                  Lorem ipsum dolor sit amet. Lorem, ipsum dolor sit amet
+                  consectetur adipisicing elit. Ullam, eaque!
+                </div>
+                <h2 class="quote__author">
+                  <span class="quote__author--info">Author:</span>
+                  <span class="quote__author--name">-Lorem, ipsum.</span>
+                </h2>
+                <span class="quote__page">
+                  <span>Genre</span>
+                  <p class="number__page">Poerty</p>
+                </span>
+                <div class="quote__reaction">
+                  <span class="quote__like">
+                    <ion-icon
+                      class="like__icon"
+                      name="heart-outline"
+                    ></ion-icon>
+                    <span>Like</span>
+                  </span>
+                  <span class="quote__save">
+                    <ion-icon class="save__icon" name="save-outline"></ion-icon>
+                    <span>Save</span>
+                  </span>
+                </div>
+              </div> 
+            </div>
+            <div class="footer">
+              <p>Copy Right</p>
+            </div>
+          </div>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>
